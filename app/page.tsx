@@ -1,6 +1,7 @@
 import { Hero } from "@/components/hero"
 import { WhatItIs } from "@/components/what-it-is"
 import { WhyItMatters } from "@/components/why-it-matters"
+import { UsefulLinks } from "@/components/useful-links"
 import { SiteFooter } from "@/components/site-footer"
 
 export default function Page() {
@@ -9,6 +10,7 @@ export default function Page() {
       <Hero />
       <WhatItIs />
       <WhyItMatters />
+      <UsefulLinks />
       <SiteFooter />
     </main>
   )
