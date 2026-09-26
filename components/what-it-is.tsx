@@ -1,9 +1,5 @@
 const audiences = [
   {
-    title: "Non-traditional students",
-    accent: "#B7FF18",
-  },
-  {
     title: "First-generation students",
     accent: "#10D9D0",
   },
@@ -23,7 +19,7 @@ export function WhatItIs() {
         A list of resources, compiled for students who don&apos;t always fit the traditional mold.
       </p>
 
-      <ul className="mt-10 grid gap-4 sm:grid-cols-3">
+      <ul className="mt-10 grid gap-4 sm:grid-cols-2">
         {audiences.map((audience) => (
           <li
             key={audience.title}
