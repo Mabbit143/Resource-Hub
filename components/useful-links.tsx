@@ -1,7 +1,31 @@
 const links = [
   {
+    label: "OpenStax: free, peer-reviewed college textbooks",
+    href: "https://openstax.org/subjects",
+  },
+  {
+    label: "LibreTexts: open textbooks for almost every subject",
+    href: "https://libretexts.org",
+  },
+  {
     label: "Best Textbook Resource Ever",
     href: "https://oceanofpdf.com",
+  },
+  {
+    label: "Open Textbook Library: 1,000+ reviewed open books",
+    href: "https://open.umn.edu/opentextbooks",
+  },
+  {
+    label: "Open Library: borrow ebooks free",
+    href: "https://openlibrary.org",
+  },
+  {
+    label: "Project Gutenberg: free public-domain classics",
+    href: "https://www.gutenberg.org",
+  },
+  {
+    label: "MERLOT: free course materials by discipline",
+    href: "https://www.merlot.org",
   },
 ]
 
